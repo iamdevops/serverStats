@@ -1,3 +1,14 @@
-Author : Vivek
+|Purpose|
+Purpose of this repository is to learn infrastructure tools to create simple internet web application that reports server stats(memory, cpu, ...).
 
-A simple application to monitor server.
+|How to setup enviornment|
+It's very simple. We will use vagrant to define what type of virtual machine we want. I will use Ubuntu 12.04 x64 in this repository.
+
+First install this software:
+1) Oracle Virtual Box ( Version >= 4.3.20).
+    -> It's free and open source product. Vagrant uses virtual box to create virtual OS defined in vagrant configuratin file.
+    
+2) Vagrant ( Version >= 1.7.1)
+
+Note: Version does not have to be as defined. Benefit of using defined version is that I will using defined versions as I work on this repository. Please feel free to add different version if you have test it out.
+
